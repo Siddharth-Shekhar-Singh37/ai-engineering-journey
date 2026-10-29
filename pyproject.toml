@@ -1,0 +1,19 @@
+[project]
+name = "ai-engineering-journey"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Siddharth Shekhar Singh", email = "195933451+Siddharth-Shekhar-Singh37@users.noreply.github.com" }
+]
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.5.4",
+]
+
+[project.scripts]
+ai-engineering-journey = "ai_engineering_journey:main"
+
+[build-system]
+requires = ["uv_build>=0.13.6,<0.14.0"]
+build-backend = "uv_build"
